@@ -1,4 +1,6 @@
 ## For my purpose lmao
+You can just fork and edit the .py to your own sdcard
+im just using this for my best
 
 <div align="center">
 
