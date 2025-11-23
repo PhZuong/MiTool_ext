@@ -33,7 +33,7 @@ im just using this for my best
 termux-setup-storage
 ```
 ```bash
-curl -sS https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash
+curl -sS https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/install.sh | bash
 ```
 
 <div align="center">
