@@ -21,7 +21,7 @@ def check_mode():
 
 result_paths = []
 
-for root, dirs, files in os.walk("/sdcard"):
+for root, dirs, files in os.walk("/storage/FFFF-F241"):
     if "Android" in root:
         continue
 
