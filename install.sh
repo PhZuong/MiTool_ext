@@ -175,28 +175,28 @@ for lib in "${libs[@]}"; do
 
 done
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool"
 
 _progress
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/mihelp.py" -o "$PREFIX/bin/mihelp" && chmod +x "$PREFIX/bin/mihelp"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/mihelp.py" -o "$PREFIX/bin/mihelp" && chmod +x "$PREFIX/bin/mihelp"
 
 _progress
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/miflashf.py" -o "$PREFIX/bin/miflashf" && chmod +x "$PREFIX/bin/miflashf"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/miflashf.py" -o "$PREFIX/bin/miflashf" && chmod +x "$PREFIX/bin/miflashf"
 
 _progress
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/miflashs.py" -o "$PREFIX/bin/miflashs" && chmod +x "$PREFIX/bin/miflashs"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/miflashs.py" -o "$PREFIX/bin/miflashs" && chmod +x "$PREFIX/bin/miflashs"
 
 _progress
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/mifce.sh" -o "$PREFIX/bin/mifce" && chmod +x "$PREFIX/bin/mifce"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/mifce.sh" -o "$PREFIX/bin/mifce" && chmod +x "$PREFIX/bin/mifce"
 
 _progress
 
 
-curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/miasst.py" -o "$PREFIX/bin/miasst" && chmod +x "$PREFIX/bin/miasst"
+curl -s "https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/miasst.py" -o "$PREFIX/bin/miasst" && chmod +x "$PREFIX/bin/miasst"
 
 _progress
 
