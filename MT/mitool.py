@@ -10,11 +10,11 @@ if not os.path.isdir(os.path.expanduser('~/storage')):
     exit()
 
 if 'u' in sys.argv or 'update' in sys.argv:
-    subprocess.run("curl -s https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash", shell=True)
+    subprocess.run("curl -s https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/install.sh | bash", shell=True)
     exit()
 
 try:
-    response = requests.get("https://raw.githubusercontent.com/offici5l/MiTool/master/MT/mitool.py", timeout=3)
+    response = requests.get("https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/MT/mitool.py", timeout=3)
     response.raise_for_status()
     if response.status_code == 200:
         version_match = re.search(r'version\s*=\s*"([^"]+)"', response.text)
@@ -22,7 +22,7 @@ try:
             vcloud = version_match.group(1)
             if vcloud > version:
                 print(f"\nAn update is available! \nUpdating from version {version} to {vcloud} ...")
-                subprocess.run("curl -s https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash", shell=True)
+                subprocess.run("curl -s https://raw.githubusercontent.com/PhZuong/MiTool_ext/master/install.sh | bash", shell=True)
                 exit()
         else:
             pass
@@ -83,7 +83,7 @@ elif choice == "6":
 elif choice == "h" or choice == "help":
     subprocess.run("$PREFIX/bin/mihelp", shell=True)
 elif choice == "u" or choice == "update":
-    subprocess.run("curl -s https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash", shell=True)
+    subprocess.run("curl -s https://raw.githubusercontent.com/offici5l/PhZuong/MiTool_ext/install.sh | bash", shell=True)
     exit()
 else:
     print("\nInvalid choice\n")
