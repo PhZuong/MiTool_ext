@@ -73,7 +73,7 @@ def flash_selected_result(selected_result):
             exit()
 
 def decompress_and_flash_rom(tgz_file_name):
-    RF = "/sdcard/Download/mi-flash-fastboot-rom"
+    RF = "/storage/FFFF-F241/mi-flash-fastboot-rom"
     if not os.path.exists(RF):
         os.makedirs(RF)
     print(f"\n\033[92mdecompressed..., please wait\033[0m\n")
